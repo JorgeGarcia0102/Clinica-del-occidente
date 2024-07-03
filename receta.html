@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords"
+        content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, materialpro admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, materialpro admin lite design, materialpro admin lite dashboard bootstrap 5 dashboard template">
+    <meta name="description"
+        content="Material Pro Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Receta</title>
+    <link rel="canonical" href="https://www.wrappixel.com/templates/materialpro-lite/" />
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assetts/img/logo.png">
+    <!-- chartist CSS -->
+    <link href="assets/plugins/chartist-js/dist/chartist.min.css" rel="stylesheet">
+    <link href="assets/plugins/chartist-js/dist/chartist-init.css" rel="stylesheet">
+    <link href="assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css" rel="stylesheet">
+    <!--This page css - Morris CSS -->
+    <link href="assets/plugins/c3-master/c3.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="assets/css/style.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+        data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar" data-navbarbg="skin6">
+            <nav class="navbar top-navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="navbar-header bg-white" data-logobg="skin6">
+                    <!-- ============================================================== -->
+                    <!-- Logo -->
+                    <!-- ============================================================== -->
+                    <a class="navbar-brand ms-4" href="index.html">
+                        <!-- Logo icon -->
+                        <b class="logo-icon">
+                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                            <!-- Dark Logo icon -->
+                            <img src="img/logo.png" alt="homepage" class="dark-logo" width="150px" height="60px" />
+
+                        </b>
+                        <!--End Logo icon -->
+                    </a>
+                    <!-- ============================================================== -->
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <a class="nav-toggler waves-effect waves-light text-white d-block d-md-none"
+                        href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
+                    <ul class="navbar-nav d-lg-none d-md-block ">
+                        <li class="nav-item">
+                            <a class="nav-toggler nav-link waves-effect waves-light text-white "
+                                href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                        </li>
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav me-auto mt-md-0 ">
+                        <!-- ============================================================== -->
+                        <!-- Search -->
+                        <!-- ============================================================== -->
+
+                        <li class="nav-item search-box">
+                            <a class="nav-link text-muted" href="javascript:void(0)"><i class="ti-search"></i></a>
+                            <form class="app-search" style="display: none;">
+                                <input type="text" class="form-control" placeholder="Search &amp; enter"> <a
+                                    class="srh-btn"><i class="ti-close"></i></a> </form>
+                        </li>
+                    </ul>
+
+                    <!-- ============================================================== -->
+                    <!-- Right side toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav">
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="img/team-4.jpg" alt="user" class="profile-pic me-2">Juan anaya
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown"></ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar" data-sidebarbg="skin6">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <!-- User Profile-->
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="dashboar.html" aria-expanded="false"><i class="mdi me-2 mdi-gauge"></i><span
+                                    class="hide-menu">Dashboard</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="personal.html" aria-expanded="false">
+                                <i class="mdi me-2 mdi-account-check"></i><span class="hide-menu">personal</span></a>
+                        </li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="paciente.html" aria-expanded="false"><i class="mdi me-2 mdi-table"></i><span
+                                    class="hide-menu">paciente</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="cita.html" aria-expanded="false"><i
+                                    class="mdi me-2 mdi-emoticon"></i><span class="hide-menu">cita</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="orden.html" aria-expanded="false"><i class="mdi me-2 mdi-earth"></i><span
+                                    class="hide-menu">orden</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="receta.html" aria-expanded="false"><i class="mdi me-2 mdi-earth"></i><span
+                                    class="hide-menu">Receta</span></a></li>
+
+
+                        <li class="text-center p-20 upgrade-btn">
+                            <a href="login.html"
+                                class="btn btn-info text-white mt-4" target="_blank">Cerrar sesion</a>
+                        </li>
+                    </ul>
+
+                </nav>
+                <!-- End Sidebar navigation -->
+
+            </div>
+
+            <!-- End Sidebar scroll-->
+            <div class="sidebar-footer">
+                <div class="row">
+                    <div class="col-4 link-wrap">
+                        <!-- item-->
+                        <a href="" class="link" data-toggle="tooltip" title="" data-original-title="Settings"><i
+                                class="ti-settings"></i></a>
+                    </div>
+                    <div class="col-4 link-wrap">
+                        <!-- item-->
+                        <a href="" class="link" data-toggle="tooltip" title="" data-original-title="Email"><i
+                                class="mdi mdi-gmail"></i></a>
+                    </div>
+                    <div class="col-4 link-wrap">
+                        <!-- item-->
+                        <a href="" class="link" data-toggle="tooltip" title="" data-original-title="Logout"><i
+                                class="mdi mdi-power"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="page-breadcrumb">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-8 align-self-center">
+                        <h3 class="page-title mb-0 p-0">Dashboard</h3>
+                        <div class="d-flex align-items-center">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Receta</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container-fluid">
+                <form>
+                    <!-- Datos del Paciente -->
+                    <div class="mb-4">
+                        <h2>Datos del Paciente</h2>
+                        <div class="mb-3">
+                            <label for="patientName" class="form-label">Nombre del Paciente</label>
+                            <input type="text" class="form-control" id="patientName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="patientAge" class="form-label">Edad</label>
+                            <input type="number" class="form-control" id="patientAge" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="patientGender" class="form-label">Género</label>
+                            <select class="form-select" id="patientGender" required>
+                                <option value="">Seleccione...</option>
+                                <option value="male">Masculino</option>
+                                <option value="female">Femenino</option>
+                                <option value="other">Otro</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="patientAddress" class="form-label">Dirección</label>
+                            <input type="text" class="form-control" id="patientAddress" required>
+                        </div>
+                    </div>
+
+                    <!-- Datos del Médico -->
+                    <div class="mb-4">
+                        <h2>Datos del Médico</h2>
+                        <div class="mb-3">
+                            <label for="doctorName" class="form-label">Nombre del Médico</label>
+                            <input type="text" class="form-control" id="doctorName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="doctorLicense" class="form-label">Número de Licencia</label>
+                            <input type="text" class="form-control" id="doctorLicense" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="doctorSpecialty" class="form-label">Especialidad</label>
+                            <input type="text" class="form-control" id="doctorSpecialty" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="doctorContact" class="form-label">Contacto</label>
+                            <input type="text" class="form-control" id="doctorContact" required>
+                        </div>
+                    </div>
+
+                    <!-- Datos de la Receta -->
+                    <div class="mb-4">
+                        <h2>Datos de la Receta</h2>
+                        <div class="mb-3">
+                            <label for="prescriptionDate" class="form-label">Fecha de la Receta</label>
+                            <input type="date" class="form-control" id="prescriptionDate" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="medications" class="form-label">Medicamentos</label>
+                            <textarea class="form-control" id="medications" rows="3" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="dosage" class="form-label">Dosis e Instrucciones</label>
+                            <textarea class="form-control" id="dosage" rows="3" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="additionalNotes" class="form-label">Notas Adicionales</label>
+                            <textarea class="form-control" id="additionalNotes" rows="3"></textarea>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-info
+                    text-white">Enviar</button>
+                </form>
+            </div>
+            <footer class="footer"> © 2024 Jorge Garcia<a href="https://www.wrappixel.com/">ADSO </a>
+            </footer>
+        </div>
+    </div>
+
+    <script src="assets/plugins/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="assets/plugins/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/app-style-switcher.js"></script>
+    <!--Wave Effects -->
+    <script src="assets/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="assets/js/sidebarmenu.js"></script>
+    <!-- ============================================================== -->
+    <!-- This page plugins -->
+    <!-- ============================================================== -->
+    <!-- chartist chart -->
+    <script src="assets/plugins/chartist-js/dist/chartist.min.js"></script>
+    <script src="assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js"></script>
+    <!--c3 JavaScript -->
+    <script src="assets/plugins/d3/d3.min.js"></script>
+    <script src="assets/plugins/c3-master/c3.min.js"></script>
+    <!--Custom JavaScript -->
+    <script src="assets/js/pages/dashboards/dashboard1.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
